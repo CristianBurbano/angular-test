@@ -1,0 +1,10 @@
+:host>nav{
+    background-color: gray;
+    color: white;
+}
+nav>div{
+    padding: 0.3rem;
+}
+nav>div:hover{
+    background-color: darkgray;
+}

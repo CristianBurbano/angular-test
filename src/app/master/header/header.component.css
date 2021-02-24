@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(179, 168, 168);
+    color: white;
+    margin:0;
+    padding:0;
+    border-radius: 0 0 0.2rem 0.2rem;
+    box-shadow: 0 3px 20px 5px gray;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+}
+header nav>div{
+    padding: 1rem;
+}
