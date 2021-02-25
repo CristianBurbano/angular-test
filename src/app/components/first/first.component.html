@@ -1,0 +1,6 @@
+<div>
+  <div class="item" *ngFor="let producto of productos" (click)="navigateToItem(producto.id)">
+    <p>{{producto.title}}</p>
+    <p>{{producto.precio | currency}}</p>
+  </div>
+</div>

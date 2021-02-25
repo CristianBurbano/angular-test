@@ -1,0 +1,15 @@
+:host>div{
+    display:flex;
+    flex-flow: row wrap;
+}
+.item{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px 3px lightgray;
+    margin: 0.5rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    cursor:pointer;
+}
+.item:hover{
+    background-color:rgb(209, 209, 209);
+}
